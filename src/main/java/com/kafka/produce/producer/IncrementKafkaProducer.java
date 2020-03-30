@@ -21,7 +21,10 @@ public class IncrementKafkaProducer {
 
     @Scheduled(fixedRate = 1000)
     public void sendIncrementValue(){
-        kafkaTemplate.send("t_increments", "Increment Value is: " + ++count);
-        log.debug("Count Value: "+ count);
+        String key = "key" + (++count%4);
+        String message = "Message is: The value is " + count;
+        kafkaTemplate.send("t_increments_mult_partitions", key, message);
+        log.debug("Key: {}", key);
+        log.debug("Message: "+ message);
     }
 }

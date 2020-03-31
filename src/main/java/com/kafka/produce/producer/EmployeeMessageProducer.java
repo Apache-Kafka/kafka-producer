@@ -17,7 +17,7 @@ import java.util.UUID;
  * vbala created on 3/30/2020
  * Inside the package - com.kafka.produce.producer
  **/
-@Service
+//@Service
 @Slf4j
 public class EmployeeMessageProducer {
 

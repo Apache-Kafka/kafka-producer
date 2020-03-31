@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
  * vbala created on 3/29/2020
  * Inside the package - com.kafka.produce.producer
  **/
-@Service
+//@Service
 @Slf4j
 @RequiredArgsConstructor
 public class IncrementKafkaProducer {

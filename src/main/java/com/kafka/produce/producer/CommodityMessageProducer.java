@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
  * vbala created on 3/31/2020
  * Inside the package - com.kafka.produce.producer
  **/
-@Service
+//@Service
 @Slf4j
 public class CommodityMessageProducer {
 

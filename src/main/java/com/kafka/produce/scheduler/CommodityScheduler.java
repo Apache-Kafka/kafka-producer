@@ -19,7 +19,7 @@ import java.util.List;
  * vbala created on 3/31/2020
  * Inside the package - com.kafka.produce.scheduler
  **/
-@Service
+//@Service
 //@RequiredArgsConstructor
 @Slf4j
 public class CommodityScheduler {
